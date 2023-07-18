@@ -1,0 +1,49 @@
+:root{
+  --boxHoverColor: rgb(231, 223, 223);
+}
+
+body{
+  width: 550px;
+  margin: auto;
+}
+
+.flexContainer{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+}
+
+table{
+  margin-bottom: 30px;
+}
+
+h1{
+  border-bottom: 1px solid black;
+}
+
+#restart{
+  background-color: wheat;
+  margin-bottom: 10px;
+  width: 50%;
+  height: 20px;
+  padding: 20px;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+}
+
+#xScore, #oScore{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Square{
+  height: 80px;
+  width: 80px;
+  font-size: 45pt;
+  text-align: center;
+}
+.Square:hover{
+  background-color: var(--boxHoverColor);
+  cursor: pointer;
+}
